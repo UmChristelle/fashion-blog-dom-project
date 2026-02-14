@@ -2,59 +2,203 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Fashion Blog</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jane's Fashion Blog</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <nav class="navbar">
-        <h1 class="logo">FASHION BLOG</h1>
-        <div class="score-box">
-            Engagement Score: <span id="score">0</span>
+  <nav class="top-bar">
+        <div class="social-icons">
+            <img src="Assets/Icons/Facebook App Icon.jpg" class="icon" alt="Facebook">
+            <img src="Assets/Icons/Instagram Logo PNG.jpg" class="icon" alt="Instagram">
+            <img src="Assets/Icons/snapchart icon.jpg" class="icon" alt="Snapchat">
+            <img src="Assets/Icons/pinterest icon.jpg" class="icon" alt="Pinterest">
+            <img src="Assets/Icons/twitter icon.jpg" class="icon" alt="Twitter">
+            <img src="Assets/Icons/LinkedIn App Icon.jpg" class="icon" alt="LinkedIn">
         </div>
+        <img src="Assets/Icons/Search.jpg" class="search-icon" alt="Search">
     </nav>
 
-    <header class="hero">
-        <h2>Welcome to My Fashion Blog</h2>
-        <input type="text" id="searchInput" placeholder="Search blog posts...">
+    <header class="header">
+        <h1>JANE BLOGLIFE</h1>
+        <p>Welcome to the blog of <span class="highlight">Jane's world</span></p>
     </header>
 
-    <main class="container">
+    <section class="hero">
+        <div class="hero-overlay">
+            <h2 id="blogTitle">Jane's<br>FASHION BLOG</h2>
+            <button class="subscribe-hero">SUBSCRIBE</button>
+        </div>
+    </section>
 
-        <section class="posts">
+    <div class="container">
+        
+        <main class="posts">
 
-            <article class="post" data-tag="Hats">
-                <h3 class="post-title">Hats Fashion Trends</h3>
-                <p>Discover the latest hats styles this season.</p>
-                <button class="like-btn">Like ❤️</button>
+            <article class="post" data-tags="Hats Fashion">
+                <h2>TITLE HEADING</h2>
+                <p class="meta">Title description, <span>May 2, 2016</span></p>
+                <img src="Assets/Images/girl_hat.jpg" alt="Fashion photo">
+                <p><strong>More Hats!</strong> I am crazy about hats these days. Some text about this blog entry. Fashion fashion and mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sedtellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+                <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                <div class="post-footer">
+                    <button class="like-btn">✓ Liked</button>
+                    <span class="replies">Replies <span class="count">1</span></span>
+                </div>
+                <div class="comment">
+                    <img src="Assets/Images/avatar_smoke.jpg" alt="George">
+                    <div class="comment-content">
+                        <h4>George <span>May 3, 2015, 6:32 PM</span></h4>
+                        <p>Great blog post! Following</p>
+                    </div>
+                </div>
             </article>
 
-            <article class="post" data-tag="Jeans">
-                <h3 class="post-title">Modern Jeans Style</h3>
-                <p>How to style jeans for every occasion.</p>
-                <button class="like-btn">Like ❤️</button>
+            <article class="post" data-tags="Jeans Fashion Hats">
+                <h2>TITLE HEADING</h2>
+                <p class="meta">Title description, <span>April 23, 2016</span></p>
+                <img src="Assets/Images/man_hat.jpg" alt="Fashion photo">
+                <p><strong>Hats!</strong> The trend this summer is hats for men!</p>
+                <p>Some text about this blog entry. Fashion fashion and mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sedtellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+                <div class="post-footer">
+                    <button class="like-btn">👍 Like</button>
+                    <span class="replies">Replies <span class="count">2</span></span>
+                </div>
             </article>
 
-            <article class="post" data-tag="Shoes">
-                <h3 class="post-title">Best Shoes 2026</h3>
-                <p>Top trending shoes this year.</p>
-                <button class="like-btn">Like ❤️</button>
+            <article class="post" data-tags="Trends Shopping Fashion">
+                <h2>TITLE HEADING</h2>
+                <p class="meta">Title description, <span>April 7, 2016</span></p>
+                <img src="Assets/Images/runway.jpg" alt="Fashion photo">
+                <p><strong>Dont miss!</strong> The runway in New York City this weekend is gonna be legendary!</p>
+                <p>Some text about this blog entry. Fashion fashion and mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sedtellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+                <div class="post-footer">
+                    <button class="like-btn">👍 Like</button>
+                    <span class="replies">Replies <span class="count">3</span></span>
+                </div>
             </article>
 
-        </section>
+        </main>
 
         <aside class="sidebar">
-            <h3>Tags</h3>
-            <div class="tags">
-                <span class="tag">Hats</span>
-                <span class="tag">Jeans</span>
-                <span class="tag">Shoes</span>
+
+            <div class="widget">
+                <img src="Assets/Images/avatar_girl2.jpg" alt="Profile" class="profile-pic">
+                <div class="widget-content">
+                    <h3>My Name</h3>
+                    <p>Just me, myself and I, exploring the universe of unknownment. I have a heart of love and a interest of lorem ipsum and mauris neque quam blog. I want to share my world with you.</p>
+                </div>
             </div>
+
+            <div class="widget">
+                <h3>Popular Posts</h3>
+                <div class="widget-content">
+                    <div class="popular-post">
+                        <img src="Assets/Images/avatar_smoke (1).jpg" alt="Denim">
+                        <div>
+                            <h4>Denim</h4>
+                            <p>Sed mattis nunc</p>
+                        </div>
+                    </div>
+                    <div class="popular-post">
+                        <img src="Assets/Images/bandmember.jpg" alt="Sweaters">
+                        <div>
+                            <h4>Sweaters</h4>
+                            <p>Praes tinci sed</p>
+                        </div>
+                    </div>
+                    <div class="popular-post">
+                        <img src="Assets/Images/workshop.jpg" alt="Workshop">
+                        <div>
+                            <h4>Workshop</h4>
+                            <p>Ultricies congue</p>
+                        </div>
+                    </div>
+                    <div class="popular-post">
+                        <img src="Assets/Images/avatar_smoke.jpg" alt="Trends">
+                        <div>
+                            <h4>Trends</h4>
+                            <p>Lorem ipsum dipsum</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="widget">
+                <h3>Advertise</h3>
+                <div class="widget-content">
+                    <div class="ad-box">
+                        <p>Your AD Here</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="widget">
+                <h3>Tags</h3>
+                <div class="widget-content">
+                    <div class="tags">
+                        <span class="tag" data-tag="Fashion">Fashion</span>
+                        <span class="tag" data-tag="New York">New York</span>
+                        <span class="tag" data-tag="London">London</span>
+                        <span class="tag" data-tag="Hats">Hats</span>
+                        <span class="tag" data-tag="Norway">Norway</span>
+                        <span class="tag" data-tag="Sweaters">Sweaters</span>
+                        <span class="tag" data-tag="Ideas">Ideas</span>
+                        <span class="tag" data-tag="Deals">Deals</span>
+                        <span class="tag" data-tag="Accessories">Accessories</span>
+                        <span class="tag" data-tag="News">News</span>
+                        <span class="tag" data-tag="Clothing">Clothing</span>
+                        <span class="tag" data-tag="Shopping">Shopping</span>
+                        <span class="tag" data-tag="Jeans">Jeans</span>
+                        <span class="tag" data-tag="Trends">Trends</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="widget">
+                <h3>Inspiration</h3>
+                <div class="widget-content">
+                    <div class="inspiration-grid">
+                        <img src="Assets/Images/jeans.jpg" alt="Inspiration">
+                        <img src="Assets/Images/avatar_hat.jpg" alt="Inspiration">
+                        <img src="Assets/Images/team1.jpg" alt="Inspiration">
+                        <img src="Assets/Images/team4.jpg" alt="Inspiration">
+                    </div>
+                </div>
+            </div>
+
+            <div class="widget">
+                <h3>Follow Me</h3>
+                <div class="widget-content">
+                    <div class="social-follow">
+                        <img src="Assets/Icons/Facebook App Icon.jpg" class="icon" alt="Facebook">
+                        <img src="Assets/Icons/Instagram Logo PNG.jpg" class="icon" alt="Instagram">
+                        <img src="Assets/Icons/snapchart icon.jpg" class="icon" alt="Snapchat">
+                        <img src="Assets/Icons/pinterest icon.jpg" class="icon" alt="Pinterest">
+                        <img src="Assets/Icons/twitter icon.jpg" class="icon" alt="Twitter">
+                        <img src="Assets/Icons/LinkedIn App Icon.jpg" class="icon" alt="LinkedIn">
+                    </div>
+                </div>
+            </div>
+
+            <div class="widget">
+                <h3>Subscribe</h3>
+                <div class="widget-content">
+                    <p>Enter your e-mail below and get notified on the latest blog posts.</p>
+                    <input type="email" placeholder="Enter e-mail">
+                    <button class="subscribe-btn">Subscribe</button>
+                </div>
+            </div>
+
         </aside>
 
-    </main>
+    </div>
 
-    <button id="backToTop" class="hidden">Back to Top ↑</button>
+    <footer class="footer">
+        <p>Powered by <a href="https://www.w3schools.com/w3css/" target="_blank">w3.css</a></p>
+        <button id="backToTop" class="hidden">↑ To the top</button>
+    </footer>
 
     <script src="script.js"></script>
 </body>
