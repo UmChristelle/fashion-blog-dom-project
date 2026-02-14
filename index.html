@@ -2,27 +2,59 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Fashion Blog DOM Project</title>
+    <title>Fashion Blog</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <nav>
-        <h1>Fashion Blog</h1>
-        <div id="scoreContainer">
+    <nav class="navbar">
+        <h1 class="logo">FASHION BLOG</h1>
+        <div class="score-box">
             Engagement Score: <span id="score">0</span>
         </div>
     </nav>
 
-    <header>
-        <input type="text" id="searchInput" placeholder="Search posts...">
+    <header class="hero">
+        <h2>Welcome to My Fashion Blog</h2>
+        <input type="text" id="searchInput" placeholder="Search blog posts...">
     </header>
 
-    <main>
-   
+    <main class="container">
+
+        <section class="posts">
+
+            <article class="post" data-tag="Hats">
+                <h3 class="post-title">Hats Fashion Trends</h3>
+                <p>Discover the latest hats styles this season.</p>
+                <button class="like-btn">Like ❤️</button>
+            </article>
+
+            <article class="post" data-tag="Jeans">
+                <h3 class="post-title">Modern Jeans Style</h3>
+                <p>How to style jeans for every occasion.</p>
+                <button class="like-btn">Like ❤️</button>
+            </article>
+
+            <article class="post" data-tag="Shoes">
+                <h3 class="post-title">Best Shoes 2026</h3>
+                <p>Top trending shoes this year.</p>
+                <button class="like-btn">Like ❤️</button>
+            </article>
+
+        </section>
+
+        <aside class="sidebar">
+            <h3>Tags</h3>
+            <div class="tags">
+                <span class="tag">Hats</span>
+                <span class="tag">Jeans</span>
+                <span class="tag">Shoes</span>
+            </div>
+        </aside>
+
     </main>
 
-    <button id="backToTop" class="hidden">Back to Top</button>
+    <button id="backToTop" class="hidden">Back to Top ↑</button>
 
     <script src="script.js"></script>
 </body>
