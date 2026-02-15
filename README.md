@@ -120,7 +120,7 @@ Installation
 
 Clone the repository:
 
-bash   git clone
+bash   git clone https://github.com/UmChristelle/fashion-blog-dom-project
 
 Navigate to project directory:
 
@@ -198,30 +198,11 @@ This project follows best practices with meaningful commits:
 ✅ Final cleanup and documentation
 📝 Assignment Requirements Met
 RequirementStatusImplementationDynamic Search✅Real-time filtering using includes()Engagement Score✅Global score variable with gold color at 10Tag Filtering✅forEach loop on tags and postsBack to Top✅Shows after 200px scrollClean Code✅No inline events, proper variable scopeSemantic HTML✅<article>, <nav>, proper structureGitHub Commits✅5+ meaningful commitsOffline Functionality✅All assets local
-🎓 Learning Outcomes
-Through this project, I gained proficiency in:
-
-Selecting and manipulating DOM elements
-Event-driven programming patterns
-Managing global state (score variable)
-Using forEach() for iteration and event attachment
-Conditional logic for dynamic UI changes
-Clean code organization and best practices
-
-🤝 Contributing
-This is a student project, but feedback is welcome! Feel free to:
-
-Fork the repository
-Create a feature branch
-Submit a pull request
 
 📄 License
 This project is created for educational purposes as part of a DOM manipulation assignment.
 👤 Author
-Your Name
-
-GitHub: @YOUR-USERNAME
-Email: your.email@example.com
+Christella Umutoni
 
 🙏 Acknowledgments
 
