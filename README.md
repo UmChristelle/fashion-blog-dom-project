@@ -2,7 +2,7 @@ Jane's Fashion Blog - DOM Manipulation Project
 📌 Project Overview
 A dynamic fashion blog website demonstrating DOM manipulation, event handling, and interactive JavaScript functionality. This project implements complex user-driven features including real-time search, engagement scoring, tag-based filtering, and smooth navigation.
 🎯 Live Demo
-View Live Site (Add your deployed link here)
+View Live Site (https://fashion-blog-dom-project.vercel.app/)
 ✨ Key Features
 A. Dynamic Search & Navigation
 Real-time Search Filtering:
