@@ -120,7 +120,7 @@ Installation
 
 Clone the repository:
 
-bash   git clone https://github.com/YOUR-USERNAME/fashion-blog-dom-project.git
+bash   git clone
 
 Navigate to project directory:
 
