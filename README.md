@@ -3,7 +3,7 @@ Jane's Fashion Blog - DOM Manipulation Project
 
 A dynamic fashion blog demonstrating Engagement Score functionality and tag-based filtering using JavaScript.
 
-Live Demo: View Site
+Live Demo: https://fashion-blog-dom-project.vercel.app/
 
 💖 Engagement Score
 
