@@ -31,44 +31,74 @@ body {
     object-fit: contain;
     cursor: pointer;
     transition: opacity 0.3s;
-    
 }
 
 .social-icons .icon:hover {
     opacity: 0.6;
 }
-.search-icon {
-    width: 50px;
-    height: 50px;
-    cursor: pointer;
-    transition: opacity 0.3s;
+
+.score-display {
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px 16px;
+    background-color: #333;
+    border-radius: 4px;
 }
 
-.search-icon:hover {
-    opacity: 0.7;
-}
-
-#searchBar {
-    display: none;
-}
 #scoreValue {
-    color: #000;
+    color: #fff;
     font-size: 20px;
     margin-left: 5px;
+    transition: color 0.3s;
 }
 
 #scoreValue.gold {
     color: gold;
+    font-weight: bold;
 }
 
+.search-container {
+    position: relative;
+    display: inline-block;
+}
+
+#searchBar {
+    width: 250px;
+    padding: 10px 45px 10px 15px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+}
+
+#searchBar:focus {
+    border-color: #666;
+}
+
+.search-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    pointer-events: none;
+    opacity: 0.6;
+}
+
+.post.hidden {
+    display: none !important;
+}
 .header {
     background-color: #fff;
     text-align: center;
     padding: 64px 16px;
 }
+
 .header h1 {
     font-weight: 900; 
-     font-size: 50px;      
+    font-size: 50px;      
     line-height: 1.2; 
 }
 
@@ -76,7 +106,6 @@ body {
     font-size: 18px;
     margin-top: 15px;
 }
-
 .highlight {
     background-color: #000;
     color: #fff;
@@ -231,11 +260,9 @@ body {
     font-size: 12px;
 }
 
-
 .post.hidden {
-    display: none;
+    display: none !important;
 }
-
 .comment {
     display: flex;
     gap: 16px;
